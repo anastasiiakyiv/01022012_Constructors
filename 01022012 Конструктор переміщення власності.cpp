@@ -59,11 +59,6 @@ public:
 		return funds;
 	}
 
-	void addObject(ObjectOfOwnership* address) {
-		ownedObjects.push_back(address);
-	}
-
-
 	void transferFunds(int amount, Owner& recipient) {
 		if (funds >= amount) {
 			funds -= amount;
