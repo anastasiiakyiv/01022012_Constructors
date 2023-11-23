@@ -111,7 +111,7 @@ int main() {
 	std::cout << "Стан рахунку: " << owner2.getFunds() << " грн" << std::endl;
 	std::cout << std::endl;
 	owner3.printOwnedObjects();
-    std::cout << "Стан рахунку: " << owner3.getFunds() << " грн" << std::endl;
+        std::cout << "Стан рахунку: " << owner3.getFunds() << " грн" << std::endl;
 	std::cout << std::endl;
 
 	owner1.transferOwnership(object2, owner3);
