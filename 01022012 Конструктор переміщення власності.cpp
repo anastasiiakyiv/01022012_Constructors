@@ -65,7 +65,7 @@ public:
 			recipient.receiveFunds(amount);
 		}
 		else {
-			std::cout << "Недостатність коштів на балансі." << std::endl;
+			std::cout << "Недостатньо коштів на рахунку." << std::endl;
 		}
 	}
 
